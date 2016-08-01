@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Absolute path of the manual
+MAN="/usr/share/banglamans/$1"
+
+# Check if the manual exist
+
+if [ -e $MAN ]; then
+	less $MAN
+else
+	echo "কোন নির্দেশিকা পাওয়া যায়নি"
+fi

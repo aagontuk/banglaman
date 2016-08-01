@@ -1,0 +1,36 @@
+#!/bin/bash
+
+ROOT_ID="0"
+
+# Check if the user is root
+
+if [[ $(id -u) == $ROOT_ID ]]; then
+	echo "Installing!"
+
+	# Check if user is in the project directory
+
+	USERS_DIR="${PWD##*/}"
+
+	if [[ $USERS_DIR == "banglaman" ]]; then
+		
+		# copy banglamans to /usr/share
+		echo "cp -r banglamans /usr/share"
+		cp -r banglamans /usr/share
+		
+		# copy banglaman script to /usr/bin
+		echo "cp banglaman /usr/bin"
+		cp banglaman /usr/bin
+		
+		echo "Install Finished!"
+
+	else
+
+		echo "You are not in the project directory. Go to project directory and then execute this script"
+
+	fi
+
+else
+
+	echo "You need root privilege to execute this command. Switch user to root or use sudo."
+
+fi
