@@ -11,7 +11,7 @@ if [[ $(id -u) == $ROOT_ID ]]; then
 
 	USERS_DIR="${PWD##*/}"
 
-	if [[ $USERS_DIR == "banglaman" ]]; then
+	if [[ $USERS_DIR == "banglaman" || $USER_DIR == "banglaman-master" ]]; then
 		
 		# copy banglamans to /usr/share
 		echo "cp -r banglamans /usr/share"
