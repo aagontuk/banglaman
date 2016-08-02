@@ -1,12 +1,80 @@
 #!/bin/bash
 
-# Absolute path of the manual
-MAN="/usr/share/banglamans/$1"
+# Directory where manual files are located
+MAN_DIR="/usr/share/banglamans"
 
-# Check if the manual exist
+# Script Path
+SCRIPT_PATH="/usr/bin/banglaman"
 
-if [ -e $MAN ]; then
-	less $MAN
+# Check if the directory exists
+if [ -d $MAN_DIR ]; then
+	DIR_EXIST=1
 else
-	echo "কোন নির্দেশিকা পাওয়া যায়নি"
+	DIR_EXIST=0
+fi
+
+# Check if the script exists
+if [ -e $SCRIPT_PATH ]; then
+	SCR_EXIST=1
+else
+	SCR_EXIST=0
+fi
+
+# FLAGS
+# Uninstall flag
+UNFLAG="--uninstall"
+
+# List flag
+LSFLAG="--list"
+
+# --uninstall flag in effect
+if [[ $1 == $UNFLAG ]]; then
+	
+	# Check if user is root
+	ROOT_ID="0"
+
+	if [[ $(id -u) == $ROOT_ID ]]; then
+		
+		# Check if the /usr/share/banglamans exists
+		if [[ $DIR_EXIST == "1" && $SCR_EXIST == "1" ]]; then
+			rm -r $MAN_DIR
+			echo "rm -r $MAN_DIR"
+			rm $SCRIPT_PATH
+			echo "rm $SCRIPT_PATH"
+			echo "banglaman has been uninstalled from your system!"
+		elif [[ $DIR_EXIST == "1" ]]; then
+			rm -r $MAN_DIR
+			echo "rm -r $MAN_DIR"
+			echo "banglaman has been uninstalled from your system!"
+		elif [[ $SCR_EXIST == "1" ]]; then
+			rm $SCRIPT_PATH
+			echo "rm $SCRIPT_PATH"
+			echo "banglaman has been uninstalled from your system!"
+		else
+			echo "banglaman is not installed in your system!"
+		fi
+
+	else
+		echo "You need root privilege to uninstall banglaman. Swicth user to root or use sudo."
+	fi
+
+# --list flag in effect
+elif [[ $1 == $LSFLAG ]]; then
+
+	if [[ $DIR_EXIST == "1" ]]; then
+		ls $MAN_DIR | sort
+	else
+		echo "banglaman is not installed in your system"
+	fi
+
+# Not a flag, may be request to show manual
+else
+	MAN_PATH=$MAN_DIR/$1
+	
+	# Check if the manual exist
+	if [ -e $MAN_PATH ]; then
+		less $MAN_PATH
+	else
+		echo "কোন নির্দেশিকা পাওয়া যায়নি"
+	fi
 fi
