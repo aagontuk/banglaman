@@ -26,7 +26,7 @@
 
 ## টার্মিনালে বাংলা ##
 
-### টার্মিনালে বাংলা দেখা ###
+#### টার্মিনালে বাংলা দেখা ####
 
 বাংলাম্যান ব্যবহার করতে হলে আপনাকে বাংলা দেখা যায় এরকম একটি টার্মিনাল ব্যবহার করতে হবে। দুঃখজনক ব্যপার হচ্ছে এখনও সব টার্মিনালে বাংলা দেখা যায় না। আপনার টার্মিনালে যদি বাংলা ঠিকভাবে দেখা না যায় তবে বাংলা সমর্থন করে এরকম একটি টার্মিনাল ইনস্টল করে নিন। নিচের তালিকা দেখুন:
 
@@ -37,9 +37,10 @@
 যেসব টার্মিনাল বাংলা সাপোর্ট করে না তাদের তালিকা:
 
 [Linux Console](https://en.wikipedia.org/wiki/Linux_console) | [কারণ](http://unix.stackexchange.com/questions/273061/linux-console-cant-display-any-language-other-than-english-while-the-terminal-u)
+
 [gnome-terminal](https://help.gnome.org/users/gnome-terminal/stable/) | [কারণ](http://askubuntu.com/questions/630598/terminal-and-python-console-isnt-showing-bangla)
 
-### টার্মিনালে বাংলা লেখা ###
+#### টার্মিনালে বাংলা লেখা ####
 
 ## যোগ দিতে চাই ##
 
