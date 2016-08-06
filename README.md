@@ -1,12 +1,12 @@
 ## যা আছে ##
-১. [পরিচিতি](https://github.com/aagontuk/banglaman#পরিচিতি)
-২. [ইনস্টল করার উপায়](https://github.com/aagontuk/banglaman#ইনস্টল-করার-উপায়)
-৩. [ব্যবহার](https://github.com/aagontuk/banglaman#ব্যবহার)
-৪. [টার্মিনালে বাংলা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা)
+1. [পরিচিতি](https://github.com/aagontuk/banglaman#পরিচিতি)
+2. [ইনস্টল করার উপায়](https://github.com/aagontuk/banglaman#ইনস্টল-করার-উপায়)
+3. [ব্যবহার](https://github.com/aagontuk/banglaman#ব্যবহার)
+4. [টার্মিনালে বাংলা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা)
   * [টার্মিনালে বাংলা দেখা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা-দেখা)
   * [টার্মিনালে বাংলা লেখা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা-লেখা)
-৫. [যোগ দিতে চাই](https://github.com/aagontuk/banglaman#যোগ-দিতে-চাই)
-৬. [ভবিষ্যৎ পরিকল্পনা](https://github.com/aagontuk/banglaman#ভবিষ্যৎ-পরিকল্পনা)
+5. [যোগ দিতে চাই](https://github.com/aagontuk/banglaman#যোগ-দিতে-চাই)
+6. [ভবিষ্যৎ পরিকল্পনা](https://github.com/aagontuk/banglaman#ভবিষ্যৎ-পরিকল্পনা)
 
 </br>
 
