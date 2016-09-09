@@ -24,6 +24,10 @@
 
 `tux@banglapc:~$ git clone https://github.com/aagontuk/banglaman.git`
 
+অথবা যদি [SSH সেটআপ](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) করা থাকে তবে:
+
+`tux@banglapc:~$ git clone git@github.com:aagontuk/banglaman.git`
+
 এবার প্রজেক্ট ফোল্ডারে যান:
 
 `tux@banglapc:~$ cd banglaman`

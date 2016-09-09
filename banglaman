@@ -62,7 +62,7 @@ if [[ $1 == $UNFLAG ]]; then
 elif [[ $1 == $LSFLAG ]]; then
 
 	if [[ $DIR_EXIST == "1" ]]; then
-		ls $MAN_DIR | sort
+		ls  $MAN_DIR | sort | less
 	else
 		echo "banglaman is not installed in your system"
 	fi
