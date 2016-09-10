@@ -1,6 +1,5 @@
 ## যা আছে ##
 
-[![Join the chat at https://gitter.im/banglamans/Lobby](https://badges.gitter.im/banglamans/Lobby.svg)](https://gitter.im/banglamans/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 1. [পরিচিতি](https://github.com/aagontuk/banglaman#পরিচিতি)
 2. [ইনস্টল করার উপায়](https://github.com/aagontuk/banglaman#ইনস্টল-করার-উপায়)
 3. [ব্যবহার](https://github.com/aagontuk/banglaman#ব্যবহার)
@@ -76,6 +75,8 @@
 </br>
 
 ## যোগ দিতে চাই ##
+
+[![Join the chat at https://gitter.im/banglamans/Lobby](https://badges.gitter.im/banglamans/Lobby.svg)](https://gitter.im/banglamans/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 এই প্রকল্পে আপনার অংশগ্রহণ খুবই গুরুত্বপূর্ণ। অনেকভাবে আপনি এই প্রকল্পে অবদান রাখতে পারেন। প্রকল্প সম্পর্কিত যেকোন মতামত এবং পরামর্শ দিতে পারেন। যেকোন ধরণের ভুলত্রুটি সংশোধন করতে পারেন। banglaman সফটওয়্যারের ডেভেলপমেন্টে অবদান রাখতে পারেন। এবং সবচেয়ে গুরুত্বপূর্ণ যে কাজ সেগুলো হচ্ছে নতুন ম্যানুয়াল লিখতে পারেন; অনুবাদ করতে পারেন; যে ম্যানুয়ালগুলো লেখা আছে আছে সেগুলোর ভুলত্রুটি সংশোধন করতে পারেন; যেগুলো সম্পূর্ণ হয়নি সেগুলো সম্পূর্ণ করতে পারেন।
 
