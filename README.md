@@ -1,4 +1,6 @@
 ## যা আছে ##
+
+[![Join the chat at https://gitter.im/banglamans/Lobby](https://badges.gitter.im/banglamans/Lobby.svg)](https://gitter.im/banglamans/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 1. [পরিচিতি](https://github.com/aagontuk/banglaman#পরিচিতি)
 2. [ইনস্টল করার উপায়](https://github.com/aagontuk/banglaman#ইনস্টল-করার-উপায়)
 3. [ব্যবহার](https://github.com/aagontuk/banglaman#ব্যবহার)
