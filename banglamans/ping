@@ -1,0 +1,13 @@
+বাংলা গ্নু/লিনাক্স নির্দেশিকা
+
+নাম:
+	ping - নেটওয়ার্ক হোস্টগুলোতে ICMP ECHO_REQUEST পাঠায়
+
+সারাংশ:
+	ping [ -LRUbdfnqrvVaAB] [ -c count] [ -i interval] [ -l preload] [ -p pattern] [ -s packetsize] [ -t ttl] [ -w deadline] [ -F flowlabel] [ -I interface] [ -M hint] [ -Q tos] [ -S sndbuf] [ -T timestamp option] [ -W timeout] [ hop ...] destination
+
+বর্ণনা:
+	( অসম্পূর্ণ )
+
+পদটিকা:
+	বাংলাম্যান প্রোজেক্ট কতৃক প্রকাশিত: <https://www.github.com/aagontuk/banglaman> । নির্দেশিকার যেকোন ভুল রিপোর্ট করুন: <https://www.github.com/aagontuk/banglaman/issues>
