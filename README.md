@@ -4,8 +4,8 @@
 2. [ইনস্টল করার উপায়](https://github.com/aagontuk/banglaman#ইনস্টল-করার-উপায়)
 3. [ব্যবহার](https://github.com/aagontuk/banglaman#ব্যবহার)
 4. [টার্মিনালে বাংলা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা)
-  * [টার্মিনালে বাংলা দেখা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা-দেখা)
-  * [টার্মিনালে বাংলা লেখা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা-লেখা)
+    * [টার্মিনালে বাংলা দেখা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা-দেখা)
+    * [টার্মিনালে বাংলা লেখা](https://github.com/aagontuk/banglaman#টার্মিনালে-বাংলা-লেখা)
 5. [যোগ দিতে চাই](https://github.com/aagontuk/banglaman#যোগ-দিতে-চাই)
 6. [ভবিষ্যৎ পরিকল্পনা](https://github.com/aagontuk/banglaman#ভবিষ্যৎ-পরিকল্পনা)
 
